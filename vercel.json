@@ -1,15 +1,5 @@
 {
   "buildCommand": "prisma generate && next build",
   "installCommand": "pnpm install",
-  "framework": "nextjs",
-  "env": {
-    "DATABASE_URL": {
-      "type": "secret",
-      "description": "PostgreSQL connection string"
-    },
-    "BETTER_AUTH_SECRET": {
-      "type": "secret",
-      "description": "Secret key for session encryption (32+ characters)"
-    }
-  }
+  "framework": "nextjs"
 }
